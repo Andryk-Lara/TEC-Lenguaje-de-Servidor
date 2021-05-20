@@ -1,0 +1,9 @@
+function factorial(n) {
+    let inicial = 1
+    while (n > 1) {
+          inicial *= n
+          n--
+      }
+    return inicial
+}
+factorial()
