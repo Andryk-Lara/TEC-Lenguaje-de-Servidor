@@ -1,5 +1,2 @@
-exports.Validation = function (num) {
-    let total = num.split("");
-    console.log(total);
-    
-}
+const numEntero = require('./verificar');
+console.log(numEntero.Verificar(2));
